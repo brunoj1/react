@@ -6,8 +6,9 @@ class Assignment extends Component {
     state = { userName: "Bruno" };
 
     inputHandler = (event) => {
-        console.log(event);
-        this.setState({ userName: event.target.value});
+        const value = event.target.value;
+        console.log(value);
+        this.setState({ userName: value});
     }
 
     render() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 const Link = ({ active, children, onClick }) => (
-  <button class="btn"
+  <button className="btn"
     onClick={onClick}
     disabled={active}
     style={{
